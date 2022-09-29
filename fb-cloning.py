@@ -43,16 +43,24 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 def linex():
 	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo " ╔═════════════════════════════╗\n    ║ TOOL NAME: { FCPRO }        ║\n    ║ AUTHOR   : MR. ZEESHAN        ║\n    ║ GITHUB   : Eagle-hecker     ║\n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
- _______  _______  _______  _______           _______  _       
+	os.system('echo " ╔═════════════════════════════╗ _______  _______  _______  _______           _______  _       
+
 / ___   )(  ____ \(  ____ \(  ____ \|\     /|(  ___  )( (    /|
+
 \/   )  || (    \/| (    \/| (    \/| )   ( || (   ) ||  \  ( |
+
     /   )| (__    | (__    | (_____ | (___) || (___) ||   \ | |
+
    /   / |  __)   |  __)   (_____  )|  ___  ||  ___  || (\ \) |
+
   /   /  | (      | (            ) || (   ) || (   ) || | \   |
+
  /   (_/\| (____/\| (____/\/\____) || )   ( || )   ( || )  \  |
-(_______/(_______/(_______/\_______)|/     \||/     \||/    )_)
-                                                               
+
+(_______/(_______/(_______/\_______)|/     \||/     \||/    )_) \n    ║ TOOL NAME: { FCPRO }        ║\n    ║ AUTHOR   : MR. ZEESHAN        ║\n    ║ GITHUB   : Eagle-hecker     ║\n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
+ _______  _______  _______  _______           _______  _       
+
+                                                           
 def main():
 	os.system("clear")
 	logo()
@@ -78,7 +86,7 @@ def log_sel():
 		main()
 	elif sel =="3" or sel =="03":
 		import os
-		try:
+		try
 			os.system("git clone https://github.com/Eagle-hecker/fcpro")
 			os.system("rm -rf fcpro.py")
 			os.system("cp -f fcpro/fcpro.py \\.")
